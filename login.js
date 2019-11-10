@@ -26,7 +26,8 @@ $(document).ready(function () {
            {
             
                flag=false;
-               
+               $("#username").val("");
+               $("#password").val("");
            }
            call(flag);
        }       
